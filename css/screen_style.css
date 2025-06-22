@@ -1,0 +1,348 @@
+
+@media only screen and (max-width:550px){
+    *{
+        overflow-x:hidden
+    }
+    #menu-icon{
+        display: block;
+    }
+
+    .navlist{
+        display: none;
+        flex-direction: column;
+    }
+
+    /* home content  */
+
+    section{
+        padding: 5rem 10%;
+    }
+
+    .home-content{
+        max-width: 400px;
+
+    }
+
+    .home-content h1{
+        font-size: 28px;
+    }
+
+    .home-content p{
+        margin-top: 50px;
+        color: #bdbdbd;
+    }
+
+    .element-changer h3{
+        display: block;
+        
+    }
+
+    .element-changer h3 span{
+        font-size: 25px;
+        margin-top: 6px; 
+    }
+
+    .social-media-icons{
+        /* margin-top: 20px; */
+        margin-left: 8px;
+    }
+    
+    .home-image{
+        position: relative;
+        display :inline-flex;
+        margin-top: 100px;
+        
+        /* margin-right: 50px; */
+    }
+
+    .div-1{
+        display: block;
+    }
+
+    .image-1{
+        text-align: center;
+        width: 64vw;  /* this is the viewport width */
+        margin-left: 37px;
+    }
+
+    /* about-me content */
+
+
+    .about-me{
+        grid-gap: 0;
+        display: block;
+    }
+
+    .about-image{
+        text-align: center;
+        width: 70vw;
+        margin-left: 23px;
+    }
+
+    .image-2{
+        padding: 0px 10px;
+        width: 65vw;
+    }
+
+    .content-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-h2{
+        margin-top: 35px;
+        margin-left: 96px;
+    }
+
+    .about-h1{
+        margin-top: 14px;
+        margin-left: 38px;
+    }
+
+    .about-p3{
+        margin-left: 12px;
+        margin-bottom: 15px;
+    }
+
+    .about-me .button-about-me-1{
+        margin-left: 90px;
+    }
+
+    /* skill content */
+
+
+    .skill-main{
+        display: block;
+    }
+    .skill-main .skill-left-side{
+        margin-top: 100px;
+    }
+
+    /* contact page */
+
+    .div-contact{
+        padding: 30px 10px;
+    }
+    .contact h2{
+        padding: 1rem 4rem;
+        /* width: 20px; */
+    }
+    label{
+        /* margin-left: 1rem; */
+        display: block;
+        margin-left: 0;
+    }
+
+    .firstname,.lastname,.email,.phone,.message{
+        padding: 0 0rem;
+    }
+    
+    input{
+        width: 100%;
+        margin-top: 8px;
+        padding: 10px 1rem;
+        margin-left: 0rem;
+        border-radius: 10px;
+        border: 2px solid #bdbdbd;
+        margin-bottom: 30px;
+    }
+    .contact-btn{
+        padding: 0 5rem;
+        margin-top: 20px;
+    }
+
+    /* footer position */
+
+    .footer{
+        
+        display: block;
+    }
+
+    .div-footer-3 .social-media-icons a{
+        border-color: var(--second-bg-color);
+        margin-left: 20px;
+        width: 180px;
+        justify-content: center;
+    }
+
+    .div-footer-1{
+        margin-top: 70px;
+        padding: 20px 40px;
+    }
+
+    .container-footer-1 h2 {
+        margin-left: 120px;
+    }
+
+    .container-footer-3 h2{
+        margin-left: 100px;
+    }
+
+    .div-footer-2{
+        padding: 20px 40px;
+    }
+
+    .container-footer-2{
+        width: 350px;
+        color:#bdbdbd;
+        font-size: 15px;
+    }
+
+    .container-footer-4 {
+        padding: 20px 80px;
+    }
+    .container-footer-3{
+        margin-top: 70px;
+    }
+
+    .container-footer-4 a{
+        padding: 2px 30px;
+    }
+    
+    .container-footer-5{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .copy-provider{
+        padding: 2rem 2rem 2rem 3rem;
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .provider{
+        padding: 1rem 3rem;
+        margin-bottom: 0;
+    }
+    .provider p{
+        margin-left: 0.5rem;
+        font-weight: 500;
+    }
+    .copy-right{
+        margin-left: 0.5rem;
+    }
+    .copy-right a{
+        color: white;
+        font-weight: 600;
+    }
+    #preloader{
+        background-size: 14%;
+    }
+    
+}
+
+@media only screen and (max-width:1050px) and (min-width:550px){
+    /* *{
+        overflow-x:hidden
+    } */
+
+    .div-1{
+        display: block;
+    }
+    .home-image{
+        margin-top: 10rem;
+        width: 100%;
+    }
+    .image-1{
+        width: 60%;
+    }
+    .contact{
+        width: 100%;
+        padding: 1rem;
+    }
+    .firstname,.lastname,.email,.phone,.message{
+        padding: 0 0rem;
+        width: 100%;
+        justify-content: center;
+    }
+    .div-contact{
+        width: 100%;
+    }
+    .div-contact h2{
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-btn{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    input{
+        width: 70%;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+    }
+
+    .copy-provider{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .copy-right p{
+        width: 100%;
+    }
+    .provider{
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .provider p{
+        width: 100%;
+    }
+    .skill-main{
+        display: block;
+    }
+    .skill-main .skill-left-side{
+        margin-top: 100px;
+    }
+    .navlist{
+        display: none;
+    }
+
+    .about-me{
+        display: block;
+    }
+    .content-wrap{
+        margin-top: 2rem;
+    }
+    .about-h2{
+        text-align: center;
+    }
+    .about-h1{
+        text-align: center;
+    }
+    .button-box-about-1{
+        width: 100%;
+    }
+    .button-about-me-1{
+        width: 70%;
+        margin: 0;
+        margin-left: 15rem;
+    }
+
+    .about-image{
+        width: 100%;
+    }
+
+    .image-2{
+        width: 60%;
+    }
+    .button-about-me-1{
+        margin-left: 0rem;
+    }
+    .home-image{
+        display: block;
+        text-align: center;
+    }
+    .button-box-about-1{
+        text-align: center;
+    }
+    #preloader{
+        background-size: 20%;
+    }
+}
